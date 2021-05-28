@@ -3,6 +3,7 @@ class Pilha {
 		int topo;
 		int capacidade;
 		int *conteudo;
+	
 	public:
 		bool redefinir(int tamanho);
 		Pilha(int tamanho);

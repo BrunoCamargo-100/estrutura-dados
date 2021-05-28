@@ -1,4 +1,6 @@
 #include "pilha.h"
+#include <stdlib.h>
+using namespace std;
 
 Pilha::Pilha(int tamanho) {
 	//cout << "Criando Pilha\n";
@@ -50,7 +52,7 @@ int Pilha::desempilhar() {
 
 
 int Pilha::retornaTopo() {
-	std::cout << "Topo da pilha\n";
+	cout << "Topo da Pilha \n";
 	return this->conteudo[this->topo];
 }
 

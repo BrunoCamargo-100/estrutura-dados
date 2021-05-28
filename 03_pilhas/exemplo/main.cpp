@@ -1,12 +1,9 @@
 #include <iostream>
 #include <cstdlib>
-//#include "pilha.h"
 #include "Pilha.cpp"
 
 
 using namespace std;
-
-
 
 
 int main() {
@@ -15,31 +12,31 @@ int main() {
 	if (minhaPilha.estaVazia())
 		cout << "Esta vazia!\n";
 	else
-		cout << "Não esta vazia!\n";
+		cout << "Nï¿½o esta vazia!\n";
 
 	cout << "Empilhando: 4\n";		
 	if (minhaPilha.empilhar(4))
 		cout << "Empilhado\n";
 	else
-		cout << "Não empilhou\n";
+		cout << "Nï¿½o empilhou\n";
 
 	cout << "Empilhando: 3\n";		
 	if (minhaPilha.empilhar(3))
 		cout << "Empilhado\n";
 	else
-		cout << "Não empilhou\n";
+		cout << "Nï¿½o empilhou\n";
 
 	cout << "Empilhando: 2\n";		
 	if (minhaPilha.empilhar(2))
 		cout << "Empilhado\n";
 	else
-		cout << "Não empilhou\n";
+		cout << "Nï¿½o empilhou\n";
 
 	cout << "Empilhando: 1\n";		
 	if (minhaPilha.empilhar(2))
 		cout << "Empilhado\n";
 	else
-		cout << "Não empilhou\n";
+		cout << "Nï¿½o empilhou\n";
 
 	cout << "Topo da pilha: " << minhaPilha.retornaTopo() << "\n";
 
@@ -53,25 +50,25 @@ int main() {
 	if (minhaPilha.empilhar(4))
 		cout << "Empilhado\n";
 	else
-		cout << "Não empilhou\n";
+		cout << "Nï¿½o empilhou\n";
 
 	cout << "Empilhando: 3\n";		
 	if (minhaPilha.empilhar(3))
 		cout << "Empilhado\n";
 	else
-		cout << "Não empilhou\n";
+		cout << "Nï¿½o empilhou\n";
 
 	cout << "Empilhando: 2\n";		
 	if (minhaPilha.empilhar(2))
 		cout << "Empilhado\n";
 	else
-		cout << "Não empilhou\n";
+		cout << "Nï¿½o empilhou\n";
 
 	cout << "Empilhando: 1\n";		
 	if (minhaPilha.empilhar(2))
 		cout << "Empilhado\n";
 	else
-		cout << "Não empilhou\n";
+		cout << "Nï¿½o empilhou\n";
 
 	cout << "Topo da pilha: " << minhaPilha.retornaTopo() << "\n";
 
